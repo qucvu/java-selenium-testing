@@ -1,7 +1,5 @@
 package javaTester;
 
-import org.apache.commons.exec.OS;
-
 public class Topic_01_System {
 
 	public static void main(String[] args) {

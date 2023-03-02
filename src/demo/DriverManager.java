@@ -1,4 +1,4 @@
-package javaTester;
+package demo;
 
 public abstract class DriverManager {
 
