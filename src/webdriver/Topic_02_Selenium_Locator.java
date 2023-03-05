@@ -89,7 +89,7 @@ public class Topic_02_Selenium_Locator {
 		driver.findElement(By.xpath("//input[@id='Username']")).sendKeys("Selenium");
 		driver.findElement(By.xpath("//input[@name='Password']")).sendKeys("Locator");
 //		driver.findElement(By.xpath("//input[@name='Username']")).sendKeys("Sử dụng name");
-//		driver.findElement(By.xpath("//label[text() = 'Password:']\\following-sibling::input")).sendKeys("Sử dụng name");
+//		driver.findElement(By.xpath("//label[text() = 'Password:']/following-sibling::input")).sendKeys("Sử dụng name");
 	}
 
 	@AfterClass
